@@ -20,90 +20,69 @@
         <p id="currentDay" class="lead"></p>
     </header>
 
-
     <!-- Timeblocks go here -->
     <div class="container">
-        <h2 class="now"></h2>
-        <!-- format for time block -->
-        <div id="9" class="row scheduleForm">
-            <div class="col-md-1 currentTime">
-                9AM
-            </div>
-            <textarea id="9" class="textarea9 col-md-10 toDo">
-          </textarea>
-            <button class="btn saveBtn col-md-1">Save</button>
-        </div>
-        <!-- format for time block -->
-        <div id="10" class="row scheduleForm">
-            <div class="col-md-1 currentTime">
-                10AM
-            </div>
-            <textarea id="10" class="textarea10 col-md-10 toDo">
-          </textarea>
-            <button class="btn saveBtn col-md-1">Save</button>
-        </div>
-        <div id="11" class="row scheduleForm">
-            <div class="col-md-1 currentTime">
-                11AM
-            </div>
-            <textarea id="11" class="textarea11 col-md-10 toDo">
-          </textarea>
-            <button class="btn saveBtn col-md-1">Save</button>
-        </div>
-        <div id="12" class="row scheduleForm">
-            <div class="col-md-1 currentTime">
-                12AM
-            </div>
-            <textarea id="12" class="textarea12 col-md-10 toDo">
-          </textarea>
-            <button class="btn saveBtn col-md-1">Save</button>
-        </div>
-        <div id="13" class="row scheduleForm">
-            <div class="col-md-1 currentTime">
-                1pm
-            </div>
-            <textarea id="13" class="textarea13 col-md-10 toDo">
-          </textarea>
-            <button class="btn saveBtn col-md-1">Save</button>
-        </div>
-        <div id="14" class="row scheduleForm">
-            <div class="col-md-1 currentTime">
-                2pm
-            </div>
-            <textarea id="14" class="textarea14 col-md-10 toDo">
-          </textarea>
-            <button class="btn saveBtn col-md-1">Save</button>
-        </div>
-        <div id="15" class="row scheduleForm">
-            <div class="col-md-1 currentTime">
-                3pm
-            </div>
-            <textarea id="15" class="textarea15 col-md-10 toDo">
-          </textarea>
-            <button class="btn saveBtn col-md-1">Save</button>
-        </div>
-        <div id="16" class="row scheduleForm">
-            <div class="col-md-1 currentTime">
-                4pm
-            </div>
-            <textarea id="16" class="textarea16 col-md-10 toDo">
-          </textarea>
-            <button class="btn saveBtn col-md-1">Save</button>
-        </div>
-        <div id="17" class="row scheduleForm">
-            <div class="col-md-1 currentTime">
-                5pm
-            </div>
-            <textarea id="17" class="textarea17 col-md-10 toDo">
-          </textarea>
-            <button class="btn saveBtn col-md-1">Save</button>
-        </div>
-    </div>
 
+        <div id="9" class="row time-block">
+            <div class="col-md-1">9am</div>
+            <textarea id="hour9" class="textarea9 col-10 description"></textarea>
+            <button class="col btn saveBtn"><i class="far fa-save"></i></button>
+        </div>
+
+        <div id="10" class="row time-block">
+            <div class="col-md-1">10am</div>
+            <textarea id="10" class="textarea10 col-10 description"> </textarea>
+            <button class="col btn saveBtn"><i class="far fa-save"></i></button>
+        </div>
+
+        <div id="11" class="row time-block">
+            <div class="col-md-1">11am</div>
+            <textarea id="11" class="textarea11 col-10 description"></textarea>
+            <button class="col btn saveBtn"><i class="far fa-save"></i></button>
+        </div>
+
+        <div id="12" class="row time-block">
+            <div class="col-md-1">12pm</div>
+            <textarea id="12" class="textarea12 col-10 description"></textarea>
+            <button class="col btn saveBtn"><i class="far fa-save"></i></button>
+        </div>
+
+        <div id="13" class="row time-block">
+            <div class="col-md-1">1pm</div>
+            <textarea id="13" class=" textarea13 col-10 description"></textarea>
+            <button class="col btn saveBtn"><i class="far fa-save"></i></button>
+        </div>
+
+        <div id="14" class="row time-block">
+            <div class="col-md-1">2pm</div>
+            <textarea id="14" class="textarea14 col-10 description"></textarea>
+            <button class="col btn saveBtn"><i class="far fa-save"></i></button>
+        </div>
+
+        <div id="15" class="row time-block">
+            <div class="col-md-1">3pm</div>
+            <textarea id="15" class="textarea15 col-10 description"></textarea>
+            <button class="col btn saveBtn"><i class="far fa-save"></i></button>
+        </div>
+
+        <div id="16" class="row time-block">
+            <div class="col-md-1">4pm</div>
+            <textarea id="16" class="textarea16 col-10 description"></textarea>
+            <button class="col btn saveBtn"><i class="far fa-save"></i></button>
+        </div>
+
+        <div id="17" class="row time-block">
+            <div class="col-md-1">5pm</div>
+            <textarea id="17" class="textarea17 col-10 description"></textarea>
+            <button class="col btn saveBtn"><i class="far fa-save"></i></button>
+        </div>
+
+    </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
     <script src="index.js"></script>
+
 </body>
 
 </html>
